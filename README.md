@@ -20,6 +20,7 @@ public static int power(int x, int y) {
 ## Otherwise, it recursively multiplies x by the result of power(x, y - 1).
 
 # powerIterative Function
+
 ```java
 public static int powerIterative(int x, int y) {
     int result = 1;
@@ -30,11 +31,13 @@ public static int powerIterative(int x, int y) {
     return result;
 }
 ```
+
 ## This function calculates the power of x to the power of y using a while loop.
 ## It initializes result to 1 and multiplies it by x in each iteration until y becomes 0.
 
 
 # isPalindrome Function
+
 ```java
 public static boolean isPalindrome(String s) {
     if (s.length() <= 1) {
