@@ -1,6 +1,7 @@
 # Java Code Explanation
 
-The provided Java code contains three functions and a main method to demonstrate their usage.
+Java code contains three functions and a main method to demonstrate their usage.
+here are the three functions one by one:
 
 ## `power` Function
 
