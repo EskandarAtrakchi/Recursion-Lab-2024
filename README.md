@@ -115,7 +115,9 @@ S2: O(n^3)
 
 S3: O(n^4)
 
-S4: O(n^3 \* log n)
+S4: O(n^3 \* log n)&#x20;
+
+S4 is logarithmic behavior, with the loop iterating approximately 'log n' times.
 {% endhint %}
 
 
