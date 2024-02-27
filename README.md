@@ -22,7 +22,7 @@ O(n)
 How would the complexity change if the second loop went to N instead of M?
 
 {% hint style="info" %}
-I would be O(n)
+It would be O(n)
 {% endhint %}
 
 2\.     Consider the following piece of code. Assume that the “_sequence of statements_” in the FOR loop have a constant complexity - O(1)
