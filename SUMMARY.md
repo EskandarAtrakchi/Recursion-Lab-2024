@@ -1,3 +1,3 @@
 # Table of contents
 
-* [Page](README.md)
+* [Find the Big O notation](README.md)
