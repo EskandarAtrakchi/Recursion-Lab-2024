@@ -29,6 +29,27 @@ public class MyArrayList < ElemType > extends ArrayList < ElemType > {
         }
     }
     
+    public void simpleBubble () {
+        
+        Comparable elemAtJ;
+        Comparable elemAtJPlus;
+        
+        for (int i = 0; i < size (); i ++) {
+        
+            for (int j = 0; j < size () - 1; j ++) {
+                
+                elemAtJ = (Comparable)get(j);
+                elemAtJPlus = (Comparable)get(j + 1);
+                
+                if (elemAtJ.compareTo(elemAtJPlus) > 0) {
+                    
+                    swap (j , j + 1); //call the method
+                    
+                }
+            }
+        }
+    }
+    
     //swap method
     private void swap (int position1 , int position2) {
         
@@ -41,6 +62,5 @@ public class MyArrayList < ElemType > extends ArrayList < ElemType > {
         set (position1 , obj2);
         set (position2 , obj1);
 
-        
     }
 }
