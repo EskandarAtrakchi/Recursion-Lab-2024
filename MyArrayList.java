@@ -64,3 +64,11 @@ public class MyArrayList < ElemType > extends ArrayList < ElemType > {
 
     }
 }
+
+/*
+reverse in duboule linked list 
+      previousNode = current.prev;
+      current.prev = current.next;
+      current.next = previousNode;
+      current = current.prev;
+*/
